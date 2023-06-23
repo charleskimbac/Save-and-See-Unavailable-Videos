@@ -14,17 +14,17 @@
 			  <article id="left-text">
 					<input type="text" id="playlistId" placeholder="Enter Playlist ID" style="width:270px"></input>
 					<button id="enter">Enter</button>
-					<br>
-					<div id="invalid-id" style="color:red;">
-						Invalid Playlist ID. Please check and try again.
-					</div>
+					<p id="invalid-id" style="color:red; margin-top:10px;">Invalid Playlist ID. Please check and try again.</p>
 					
 					<!-- CURRENT SONGS -->
-					<div class="current-videos" id="current-videos">
-						<h3>Videos in playlist:</h3>
-						<br>
+					<div class="show-data" id="show-data">
+						<p style="font-size:30px; font-weight: bold; margin-top:20px; margin-bottom:20px;" id="playlist-name"></p>
+						<p style="font-size:20px; font-weight: bold;">Videos in playlist:</p>
 						<button id="save">Save</button>
+						<br><br>
+						<div class="current-videos" id="current-videos"></div>
 					</div>
+					<br>
 				</article>
 			</div>
 			<div class="right-half">
@@ -39,10 +39,10 @@
 		</section>
 
 		<h2>all: PL2q2ViGPCELf_ZWvtVE3Yd7D45oA7yL69</h2>
-		<h2>(2): PL2q2ViGPCELf5JQozQUeb-x37Ldi0sjc8</h2>
+		<h3>(2):</h3>
+		<h2>PL2q2ViGPCELf5JQozQUeb-x37Ldi0sjc8</h2>
 		<h2>mood: PL2q2ViGPCELf_QqFOkIiF7116PEKI91eF</h2>
 
-		<p>test</p>
 		<ul id="todo">
 			<li>UI/UX</li>
 			<li>multiple playlists</li>
